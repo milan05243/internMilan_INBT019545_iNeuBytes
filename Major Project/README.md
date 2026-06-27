@@ -4,6 +4,15 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
+## Project Links
+
+- 🌐 **Live Demo:** https://cinematch-ai-tccm.onrender.com
+- 💻 **GitHub Repository:** https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
+
+> **Note:** The application is deployed on Render's free tier. The first request may take 30–60 seconds if the service has been idle.
+
+---
+
 ##  Features
 
 - **Content-Based ML Engine**: Utilizes TF-IDF vectorization and Cosine Similarity to find similar movies based on plot overviews, genres, and keywords.
@@ -215,6 +224,15 @@ Backend proxy endpoint that requests poster data from TMDB using the server-side
 ```
 
 ---
+## Deployment
+
+The application is deployed on Render.
+
+**Live Demo:**
+
+https://cinematch-ai-tccm.onrender.com
+
+---
 
 ## Screenshots
 
@@ -259,6 +277,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - B.Tech CSE (Artificial Intelligence)
 - Medi-Caps University
 - Internship: iNeuBytes AI Internship
+
+### Project Links
+
+- 🌐 Live Demo: https://cinematch-ai-tccm.onrender.com
+- 💻 GitHub Repository: https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
 
 ### Project Links
 - Live Demo: https://cinematch-ai-tccm.onrender.com
