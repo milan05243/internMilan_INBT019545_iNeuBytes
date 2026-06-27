@@ -16,9 +16,6 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
-## Project Links
-
-- **Live Demo:** https://cinematch-ai-tccm.onrender.com
 
 ##  Tech Stack
 
@@ -42,43 +39,6 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
-##  Folder Structure
-
-```text
-movie-recommendation-system/
-│
-├── app.py                      # Flask Application Entry Point
-├── recommender.py              # ML Recommendation Engine & Helper Queries
-├── train_model.py              # ML Training & Pickling Pipeline Script
-├── config.py                   # Application Settings & Path Configurations
-│
-├── requirements.txt            # Python Dependencies
-├── README.md                   # Project Documentation
-├── LICENSE                     # MIT License
-├── .gitignore                  # Git Ignore Settings
-├── .env.example                # Template for Environment Variables
-│
-├── model.pkl                   # (Trained TF-IDF vectorizer - generated on run)
-├── similarity.pkl              # (Cosine similarity matrix - generated on run)
-├── movies.pkl                  # (Processed movies dataframe - generated on run)
-│
-├── templates/
-│   └── index.html              # Frontend Layout Template
-│
-├── static/
-│   ├── style.css               # Custom Stylesheet (Glassmorphism & animations)
-│   └── script.js               # Frontend JavaScript client
-│
-├── dataset/
-│   └── tmdb_5000_movies.csv    # TMDB Dataset CSV (Downloaded automatically)
-│
-├── notebook/
-│   └── Movie_Recommendation_System.ipynb  # Interactive Jupyter Notebook
-│
-└── screenshots/                # Application Screenshots Directory
-```
-
----
 
 ##  Installation & Setup
 
@@ -86,8 +46,8 @@ Follow these steps to run CineMatch locally on your machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/movie-recommendation-system.git
-cd movie-recommendation-system
+git clone https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes.git
+cd "Major Project"
 ```
 
 ### 2. Set Up a Virtual Environment (Recommended)
@@ -256,34 +216,21 @@ Backend proxy endpoint that requests poster data from TMDB using the server-side
 
 ---
 
-##  Screenshots Section
+## Screenshots
 
-*Add application screenshots here once deployed or tested locally.*
-1. **Home Feed Screen**: Grid containing Popular, Trending, and Recent releases on load.
-2. **Search Autocomplete**: Autocomplete dropdown showing results matching character queries.
-3. **Recommendations Results**: Glassmorphism cards displaying matching suggestions with ratings, release years, and poster visuals.
+### Home Page
 
----
+<img width="1919" height="746" alt="Screenshot 2026-06-27 222243" src="https://github.com/user-attachments/assets/698f1e7b-bbba-41cd-ab70-3b27f6cc5c0e" />
 
-## 🚢 Deployment Instructions
 
-### Backend (Render)
-1. Sign up on [Render](https://render.com/).
-2. Create a new **Web Service** and link your GitHub repository.
-3. Configure the following service settings:
-   - **Environment**: `Python`
-   - **Build Command**: `pip install -r requirements.txt && python train_model.py` (Trains the model and caches pickles on build)
-   - **Start Command**: `gunicorn app:app`
-4. Add the following **Environment Variables** in the settings tab:
-   - `FLASK_ENV` = `production`
-   - `SECRET_KEY` = `your_strong_random_key`
-   - `TMDB_API_KEY` = `your_tmdb_api_key`
+### Movie Recommendations
 
-### Frontend (Vercel)
-If you deploy this repository as a unified project, Render serves both backend API and frontend pages automatically through Flask's `index.html` template. 
-If you decide to deploy them separately:
-1. Configure Vercel to point to your repository.
-2. Ensure you rewrite API requests from the frontend Javascript code to use the live Render URL instead of relative endpoints.
+<img width="1917" height="843" alt="Screenshot 2026-06-27 222335" src="https://github.com/user-attachments/assets/96094567-d6ee-4410-98ff-2e08dfa1e050" />
+
+
+### Featured Movies
+
+<img width="1919" height="905" alt="Screenshot 2026-06-27 222406" src="https://github.com/user-attachments/assets/7ac99b3f-8c1c-42b5-aad6-7cd41032dcd0" />
 
 ---
 
@@ -304,10 +251,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Author:
-Milan Choudhary
-Registration No.: INBT019545
-B.Tech CSE (Artificial Intelligence)
-Medi-Caps University
+## Author
 
-Developed as the Major Project for the iNeuBytes AI Internship.
+**Milan Choudhary**
+
+- Registration No.: INBT019545
+- B.Tech CSE (Artificial Intelligence)
+- Medi-Caps University
+- Internship: iNeuBytes AI Internship
+
+### Project Links
+- Live Demo: https://cinematch-ai-tccm.onrender.com
