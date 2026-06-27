@@ -280,8 +280,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Project Links
 
-- 🌐 Live Demo: https://cinematch-ai-tccm.onrender.com
-- 💻 GitHub Repository: https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
-
-### Project Links
 - Live Demo: https://cinematch-ai-tccm.onrender.com
+- GitHub Repository: https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
