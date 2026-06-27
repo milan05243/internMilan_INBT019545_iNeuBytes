@@ -16,6 +16,10 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
+## Project Links
+
+- **Live Demo:** https://cinematch-ai-tccm.onrender.com
+
 ##  Tech Stack
 
 ### Machine Learning
