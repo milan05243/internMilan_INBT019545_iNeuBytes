@@ -4,7 +4,7 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Content-Based ML Engine**: Utilizes TF-IDF vectorization and Cosine Similarity to find similar movies based on plot overviews, genres, and keywords.
 - **Dynamic Autocomplete**: Real-time case-insensitive autocomplete suggestions while typing in the search bar.
@@ -16,7 +16,7 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Machine Learning
 - **Python** (v3.8+)
@@ -38,7 +38,7 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```text
 movie-recommendation-system/
@@ -76,7 +76,7 @@ movie-recommendation-system/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 Follow these steps to run CineMatch locally on your machine:
 
@@ -252,7 +252,7 @@ Backend proxy endpoint that requests poster data from TMDB using the server-side
 
 ---
 
-## 🖼️ Screenshots Section
+##  Screenshots Section
 
 *Add application screenshots here once deployed or tested locally.*
 1. **Home Feed Screen**: Grid containing Popular, Trending, and Recent releases on load.
@@ -283,7 +283,7 @@ If you decide to deploy them separately:
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 In future releases, we plan to implement the following advancements to evolve CineMatch into a commercial-grade application:
 1. **User Authentication**: Implement registration/login flows using JWT or OAuth (Google, GitHub) so users can save favorites and view recommendation history.
@@ -295,7 +295,7 @@ In future releases, we plan to implement the following advancements to evolve Ci
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
