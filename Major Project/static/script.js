@@ -238,37 +238,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Proxy TMDB poster fetcher
     function fetchMoviePoster(movieId, posterContainer) {
+    console.log("Fetching poster for:", movieId);
+
     fetch(`/poster/${movieId}`)
         .then(res => res.json())
         .then(data => {
-            if (!data.poster_url) return;
+            console.log("Response:", movieId, data);
+
+            if (!data.poster_url) {
+                console.log("No poster URL");
+                return;
+            }
 
             const img = document.createElement("img");
 
-            // Attach events BEFORE setting src
             img.onload = () => {
+                console.log("Image loaded:", movieId);
+
                 const ratingBadge = posterContainer.querySelector(".card-rating-badge");
                 posterContainer.innerHTML = "";
                 posterContainer.appendChild(img);
+
                 if (ratingBadge) {
                     posterContainer.appendChild(ratingBadge);
                 }
             };
 
             img.onerror = () => {
-                console.warn(`Failed to load poster for movie ID: ${movieId}`);
+                console.log("Image failed:", movieId);
             };
 
-            img.alt = "Poster";
             img.className = "poster-img";
-            img.loading = "lazy";
+            img.alt = "Poster";
 
-            // Set src LAST
             img.src = data.poster_url;
         })
-        .catch(err => {
-            console.warn(`Could not load poster for ID ${movieId}:`, err);
-        });
+        .catch(err => console.error(err));
 }
 
     // --- Autocomplete Rendering Helpers ---
