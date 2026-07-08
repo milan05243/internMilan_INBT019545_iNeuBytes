@@ -243,12 +243,14 @@ https://cinematch-ai-tccm.onrender.com
 
 ### Movie Recommendations
 
-<img width="1917" height="843" alt="Screenshot 2026-06-27 222335" src="https://github.com/user-attachments/assets/96094567-d6ee-4410-98ff-2e08dfa1e050" />
+<img width="1919" height="843" alt="Screenshot 2026-07-08 130830" src="https://github.com/user-attachments/assets/354d8a82-6d40-4834-8d21-4ddee0736705" />
+
 
 
 ### Featured Movies
 
-<img width="1919" height="905" alt="Screenshot 2026-06-27 222406" src="https://github.com/user-attachments/assets/7ac99b3f-8c1c-42b5-aad6-7cd41032dcd0" />
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/c5354bf5-c7d9-42db-aab7-9e4da376b9e6" />
+
 
 ---
 
