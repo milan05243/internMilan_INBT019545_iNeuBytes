@@ -6,7 +6,7 @@ CineMatch is a full-stack Machine Learning-based Movie Recommendation System des
 
 ## Project Links
 
-- 🌐 **Live Demo:** https://cinematch-ai-tccm.onrender.com
+- 🌐 **Live Demo:** https://cinematch-ai-tccm.onrender.com/
 - 💻 **GitHub Repository:** https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
 
 > **Note:** The application is deployed on Render's free tier. The first request may take 30–60 seconds if the service has been idle.
@@ -280,5 +280,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Project Links
 
-- Live Demo: https://cinematch-ai-tccm.onrender.com
+- Live Demo: https://cinematch-ai-tccm.onrender.com/
 - GitHub Repository: https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
