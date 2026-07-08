@@ -284,3 +284,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Live Demo: https://cinematch-ai-tccm.onrender.com/
 - GitHub Repository: https://github.com/milan05243/internsMilan_INBT019545_iNeuBytes/tree/main/Major%20Project
+
+---
+
+## Deployment Note
+This application is hosted on Render’s free tier. After a period of inactivity, the first request may take a short time while the service restarts.
