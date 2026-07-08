@@ -27,5 +27,5 @@ Implement and compare Traditional CNN and Customized CNN models for image classi
 - Scikit-learn
 
 ## Author
--Milan Choudhary
--Registration No.: INBT019545
+- Milan Choudhary
+- Registration No.: INBT019545
