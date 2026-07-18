@@ -281,8 +281,6 @@ This application is hosted on Render’s free tier. After a period of inactivity
 **Milan Choudhary**
 
 - Registration No.: INBT019545
-- B.Tech CSE (Artificial Intelligence)
-- Medi-Caps University
 - Internship: iNeuBytes AI Internship
 
 ### Project Links
